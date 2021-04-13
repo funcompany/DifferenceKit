@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B2DF96C210F1A0D004D2D40 /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF95C210F185E004D2D40 /* DifferenceKit.framework */; };
-		6B2DF96D210F1A0D004D2D40 /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF95C210F185E004D2D40 /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B956B962110B4AA00DE3D29 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B956B8F2110B4AA00DE3D29 /* EmojiViewController.swift */; };
 		6B956B972110B4AA00DE3D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B956B902110B4AA00DE3D29 /* Assets.xcassets */; };
 		6B956B9A2110B4AA00DE3D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B956B932110B4AA00DE3D29 /* AppDelegate.swift */; };
@@ -19,31 +17,9 @@
 		6BAE818F2278550C0060866E /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE818C2278550C0060866E /* EmojiCell.swift */; };
 		6BAE8195227855E90060866E /* EmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAE8194227855E90060866E /* EmojiViewController.xib */; };
 		6BAE8197227858440060866E /* EmojiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAE8196227858440060866E /* EmojiCell.xib */; };
+		EDD2B8F52625932A003C2ADE /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8F42625932A003C2ADE /* DifferenceKit.framework */; };
+		EDD2B8F62625932A003C2ADE /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8F42625932A003C2ADE /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B2DF95B210F185E004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF86E210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-		6B2DF95F210F185E004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF877210E2C12004D2D40;
-			remoteInfo = DifferenceKitTests;
-		};
-		6B2DF96E210F1A0D004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B2DF86D210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6B2DF974210F1A0D004D2D40 /* Embed Frameworks */ = {
@@ -52,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B2DF96D210F1A0D004D2D40 /* DifferenceKit.framework in Embed Frameworks */,
+				EDD2B8F62625932A003C2ADE /* DifferenceKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		6B2DF943210F184A004D2D40 /* Example-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DifferenceKit.xcodeproj; path = ../../DifferenceKit.xcodeproj; sourceTree = "<group>"; };
 		6B956B8F2110B4AA00DE3D29 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		6B956B902110B4AA00DE3D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B956B932110B4AA00DE3D29 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +48,7 @@
 		6BAE818C2278550C0060866E /* EmojiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
 		6BAE8194227855E90060866E /* EmojiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiViewController.xib; sourceTree = "<group>"; };
 		6BAE8196227858440060866E /* EmojiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiCell.xib; sourceTree = "<group>"; };
+		EDD2B8F42625932A003C2ADE /* DifferenceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DifferenceKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B2DF96C210F1A0D004D2D40 /* DifferenceKit.framework in Frameworks */,
+				EDD2B8F52625932A003C2ADE /* DifferenceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +66,9 @@
 		6B2DF93A210F184A004D2D40 = {
 			isa = PBXGroup;
 			children = (
-				6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */,
 				6B956B8D2110B4AA00DE3D29 /* Sources */,
 				6B2DF944210F184A004D2D40 /* Products */,
+				EDD2B8F32625932A003C2ADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,15 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				6B2DF943210F184A004D2D40 /* Example-tvOS.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6B2DF956210F185E004D2D40 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6B2DF95C210F185E004D2D40 /* DifferenceKit.framework */,
-				6B2DF960210F185E004D2D40 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +98,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		EDD2B8F32625932A003C2ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2B8F42625932A003C2ADE /* DifferenceKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,7 +121,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B2DF96F210F1A0D004D2D40 /* PBXTargetDependency */,
 			);
 			name = "Example-tvOS";
 			productName = "Example-tvOS";
@@ -180,35 +154,12 @@
 			mainGroup = 6B2DF93A210F184A004D2D40;
 			productRefGroup = 6B2DF944210F184A004D2D40 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6B2DF956210F185E004D2D40 /* Products */;
-					ProjectRef = 6B2DF955210F185E004D2D40 /* DifferenceKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6B2DF942210F184A004D2D40 /* Example-tvOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6B2DF95C210F185E004D2D40 /* DifferenceKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DifferenceKit.framework;
-			remoteRef = 6B2DF95B210F185E004D2D40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6B2DF960210F185E004D2D40 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 6B2DF95F210F185E004D2D40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6B2DF941210F184A004D2D40 /* Resources */ = {
@@ -239,14 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B2DF96F210F1A0D004D2D40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DifferenceKit;
-			targetProxy = 6B2DF96E210F1A0D004D2D40 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6B2DF950210F184E004D2D40 /* Debug */ = {
@@ -368,6 +311,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +335,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

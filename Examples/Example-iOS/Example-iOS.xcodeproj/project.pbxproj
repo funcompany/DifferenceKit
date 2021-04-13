@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B2DF92F210E522F004D2D40 /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF916210E4AF0004D2D40 /* DifferenceKit.framework */; };
-		6B2DF930210E522F004D2D40 /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF916210E4AF0004D2D40 /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B7EEDAD2251305400060872 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EEDAC2251305400060872 /* NibLoadable.swift */; };
 		6B7EEDAF2251309000060872 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EEDAE2251309000060872 /* Reusable.swift */; };
 		6B7EEDB12251315500060872 /* ReusableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EEDB02251315500060872 /* ReusableViewExtensions.swift */; };
@@ -34,31 +32,9 @@
 		6BAE817922783EC80060866E /* RandomPlainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE817822783EC80060866E /* RandomPlainCell.swift */; };
 		6BD9445D2136EDC100093E7A /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9445C2136EDC100093E7A /* RandomViewController.swift */; };
 		6BD944602137062000093E7A /* RandomLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9445F2137062000093E7A /* RandomLabelView.swift */; };
+		EDD2B8F8262593B1003C2ADE /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8F7262593B1003C2ADE /* DifferenceKit.framework */; };
+		EDD2B8F9262593B1003C2ADE /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8F7262593B1003C2ADE /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B2DF915210E4AF0004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF86E210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-		6B2DF919210E4AF0004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF877210E2C12004D2D40;
-			remoteInfo = DifferenceKitTests;
-		};
-		6B2DF931210E522F004D2D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B2DF86D210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6B2DF937210E522F004D2D40 /* Embed Frameworks */ = {
@@ -67,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B2DF930210E522F004D2D40 /* DifferenceKit.framework in Embed Frameworks */,
+				EDD2B8F9262593B1003C2ADE /* DifferenceKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		6B2DF8FA210E4AE1004D2D40 /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DifferenceKit.xcodeproj; path = ../../DifferenceKit.xcodeproj; sourceTree = "<group>"; };
 		6B7EEDAC2251305400060872 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		6B7EEDAE2251309000060872 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		6B7EEDB02251315500060872 /* ReusableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewExtensions.swift; sourceTree = "<group>"; };
@@ -103,6 +78,7 @@
 		6BAE817822783EC80060866E /* RandomPlainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPlainCell.swift; sourceTree = "<group>"; };
 		6BD9445C2136EDC100093E7A /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		6BD9445F2137062000093E7A /* RandomLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomLabelView.swift; sourceTree = "<group>"; };
+		EDD2B8F7262593B1003C2ADE /* DifferenceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DifferenceKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B2DF92F210E522F004D2D40 /* DifferenceKit.framework in Frameworks */,
+				EDD2B8F8262593B1003C2ADE /* DifferenceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +96,6 @@
 		6B2DF8F1210E4AE1004D2D40 = {
 			isa = PBXGroup;
 			children = (
-				6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */,
 				6B956B792110B38700DE3D29 /* Sources */,
 				6B2DF8FB210E4AE1004D2D40 /* Products */,
 				6B2DF91B210E4B52004D2D40 /* Frameworks */,
@@ -135,18 +110,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B2DF910210E4AF0004D2D40 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6B2DF916210E4AF0004D2D40 /* DifferenceKit.framework */,
-				6B2DF91A210E4AF0004D2D40 /* Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6B2DF91B210E4B52004D2D40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDD2B8F7262593B1003C2ADE /* DifferenceKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -239,7 +206,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B2DF932210E522F004D2D40 /* PBXTargetDependency */,
 			);
 			name = "Example-iOS";
 			productName = "Example-iOS";
@@ -273,35 +239,12 @@
 			mainGroup = 6B2DF8F1210E4AE1004D2D40;
 			productRefGroup = 6B2DF8FB210E4AE1004D2D40 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6B2DF910210E4AF0004D2D40 /* Products */;
-					ProjectRef = 6B2DF90F210E4AF0004D2D40 /* DifferenceKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6B2DF8F9210E4AE1004D2D40 /* Example-iOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6B2DF916210E4AF0004D2D40 /* DifferenceKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DifferenceKit.framework;
-			remoteRef = 6B2DF915210E4AF0004D2D40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6B2DF91A210E4AF0004D2D40 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 6B2DF919210E4AF0004D2D40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6B2DF8F8210E4AE1004D2D40 /* Resources */ = {
@@ -347,14 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B2DF932210E522F004D2D40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DifferenceKit;
-			targetProxy = 6B2DF931210E522F004D2D40 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6B956B7F2110B38700DE3D29 /* LaunchScreen.storyboard */ = {
@@ -490,6 +425,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +451,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

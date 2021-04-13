@@ -13,33 +13,9 @@
 		750C1E7021515AFB00034704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750C1E6F21515AFB00034704 /* Assets.xcassets */; };
 		750C1E7321515AFB00034704 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 750C1E7121515AFB00034704 /* MainMenu.xib */; };
 		750C1E7C21515BCC00034704 /* ShuffleEmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C1E7B21515BCC00034704 /* ShuffleEmoticonViewController.swift */; };
-		7541B1E3215173F400769EEC /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541B1E0215173EA00769EEC /* DifferenceKit.framework */; };
-		7541B1E4215173F400769EEC /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7541B1E0215173EA00769EEC /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDD2B8FD262593E9003C2ADE /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8FC262593E9003C2ADE /* DifferenceKit.framework */; };
+		EDD2B8FE262593E9003C2ADE /* DifferenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2B8FC262593E9003C2ADE /* DifferenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7541B1DF215173EA00769EEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF86E210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-		7541B1E1215173EA00769EEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B2DF877210E2C12004D2D40;
-			remoteInfo = Tests;
-		};
-		7541B1E5215173F400769EEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B2DF86D210E2C12004D2D40;
-			remoteInfo = DifferenceKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7541B1E7215173F500769EEC /* Embed Frameworks */ = {
@@ -48,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7541B1E4215173F400769EEC /* DifferenceKit.framework in Embed Frameworks */,
+				EDD2B8FE262593E9003C2ADE /* DifferenceKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +40,7 @@
 		750C1E7221515AFB00034704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		750C1E7421515AFB00034704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750C1E7B21515BCC00034704 /* ShuffleEmoticonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShuffleEmoticonViewController.swift; sourceTree = "<group>"; };
-		7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DifferenceKit.xcodeproj; path = ../../DifferenceKit.xcodeproj; sourceTree = "<group>"; };
+		EDD2B8FC262593E9003C2ADE /* DifferenceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DifferenceKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7541B1E3215173F400769EEC /* DifferenceKit.framework in Frameworks */,
+				EDD2B8FD262593E9003C2ADE /* DifferenceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +58,9 @@
 		750C1E6121515AF800034704 = {
 			isa = PBXGroup;
 			children = (
-				7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */,
 				750C1E6C21515AF800034704 /* Sources */,
 				750C1E6B21515AF800034704 /* Products */,
+				EDD2B8FB262593E8003C2ADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,13 +86,12 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		7541B1DB215173EA00769EEC /* Products */ = {
+		EDD2B8FB262593E8003C2ADE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7541B1E0215173EA00769EEC /* DifferenceKit.framework */,
-				7541B1E2215173EA00769EEC /* Tests.xctest */,
+				EDD2B8FC262593E9003C2ADE /* DifferenceKit.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7541B1E6215173F400769EEC /* PBXTargetDependency */,
 			);
 			name = "Example-macOS";
 			productName = "Example-macOS";
@@ -167,35 +141,12 @@
 			mainGroup = 750C1E6121515AF800034704;
 			productRefGroup = 750C1E6B21515AF800034704 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7541B1DB215173EA00769EEC /* Products */;
-					ProjectRef = 7541B1DA215173EA00769EEC /* DifferenceKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				750C1E6921515AF800034704 /* Example-macOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		7541B1E0215173EA00769EEC /* DifferenceKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DifferenceKit.framework;
-			remoteRef = 7541B1DF215173EA00769EEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7541B1E2215173EA00769EEC /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 7541B1E1215173EA00769EEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		750C1E6821515AF800034704 /* Resources */ = {
@@ -222,14 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7541B1E6215173F400769EEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DifferenceKit;
-			targetProxy = 7541B1E5215173F400769EEC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		750C1E7121515AFB00034704 /* MainMenu.xib */ = {
@@ -368,6 +311,10 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,6 +338,10 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
