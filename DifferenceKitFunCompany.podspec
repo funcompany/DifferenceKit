@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'DifferenceKitFunCompany'
-  spec.version  = '1.1.6.1'
+  spec.version  = '1.1.6.2'
   spec.author = { 'ra1028' => 'r.fe51028.r@gmail.com' }
   spec.homepage = 'https://github.com/funcompany/DifferenceKit'
   spec.documentation_url = 'https://ra1028.github.io/DifferenceKit'
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'UIKitExtension' do |subspec|
-    subspec.dependency 'DifferenceKit/Core'
+    subspec.dependency 'DifferenceKitFunCompany/Core'
 
     source_files = 'Sources/Extensions/UIKitExtension.swift'
     frameworks = 'UIKit'
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'AppKitExtension' do |subspec|
-    subspec.dependency 'DifferenceKit/Core'
+    subspec.dependency 'DifferenceKitFunCompany/Core'
 
     subspec.osx.source_files = 'Sources/Extensions/AppKitExtension.swift'
     subspec.osx.frameworks = 'AppKit'
